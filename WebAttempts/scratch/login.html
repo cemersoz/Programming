@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<header>
+	<link rel="stylesheet" type="text/css" href="login.css">
+	<script src="login.js"></script>
+</header>
+<body>
+	<div class="box" id="signup">
+		<h1>SIGNUP</h1>
+		<h2>Please enter your credentials</h2>
+		<input class = "text" id = "first" maxlength = 10 placeholder = "name"><br><br>
+		<input class = "text" id = "last"  placeholder = "lastname"><br><br>
+		<input class = "utext" id = "user" maxlength = 16 placeholder = "username"><br><br>
+		<input class = "text" id = "mil" placeholder = "e-mail"><br><br>
+		<input class = "password" id = "pass" placeholder = "password"><br><br>
+		<input class = "password" id = "pass2" placeholder = "re-type password">
+		<button type="button" onclick="signup()">Submit</button>		
+		<p id="erol"></p>
+	</div>
+	<div class="box" id="login">
+		<h1>LOGIN</h1>
+		<h2>Please enter your account information</h2>
+		<input class = "text" id = "usr" placeholder = "username"><br><br>
+		<input class = "password" id = "pass3" placeholder = "password">
+		<button type = "button" onclick="login()">Submit</button>
+		<p id="erol2"></p>
+	</div>
+</body>

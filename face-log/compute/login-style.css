@@ -1,0 +1,239 @@
+/* Below line is used for online Google font */
+h2{
+text-align: left;
+font-size: 3.7vw;
+	color: #edf7f5;
+}
+h3{
+	text-align: left;
+	font-size: .8vw;
+	font-weight: normal;
+}
+body{ 
+	background: #006B84;
+	height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Montserrat';
+}
+a.class1{
+	color:#edf7f5;
+}    
+a.class1:link{ 
+	color: #edf7f5; 
+	text-decoration:none;
+}
+a.class1:visited{ 
+	color: #edf7f5; 
+	text-decoration:none;
+}
+a.class1:hover{
+	color:#FFF;
+}      
+a.class2{
+	color:#0000ff;
+}  
+a.class2:link{ 
+	color: #0000ff; 
+	text-decoration:none;
+}
+a.class2:visited{ 
+	color: #0000ff; 
+	text-decoration:none;
+}
+a.class2:hover{
+	text-decoration: underline;
+	text-shadow: none; 
+} 
+.header {
+	background: none;/*linear-gradient( 0deg, #367d47, #4db366 );*/
+	width: 50%;
+	height: 10%;
+	margin-top: 17.5%;
+	font-size: 15vw;
+	font-weight: bolder;
+	text-align: left;
+	text-indent:6vw;
+	position:fixed;
+	z-index: 2;
+	color:#367d47;
+ }  
+.lgn{
+	position: fixed;
+	width: 75vw;
+	margin-top: 5%;
+	margin-left: 1vw;
+	float:left;
+	padding: 1vw 4vw 3.5vw;
+	background:none;
+	box-shadow: none;
+	font-size: 1vw;
+	z-index: 4;
+}
+.lgn2{
+	position: fixed;
+	width: 75vw;
+	margin-top: 5%;
+	margin-left: 1vw;
+	float:left;
+	padding: 1vw 4vw 3.5vw;
+	background:none;
+	box-shadow: none;
+	font-size: 1vw;
+	z-index: 4;
+}
+input[type=text],[type=password]{
+	width: 20%;
+	height: 1.7vw;
+	padding-left: 1vw;
+	margin-bottom: 1vw;
+	margin-top: .8vw;
+	margin-left: .5vw;
+	margin-right: .5vw;
+	box-shadow: none;
+	border: .15vw solid #2f6a3e;
+	border-radius: .3vw;
+	color: #4f4f4f;
+	font-size: 1vw;
+}
+#login {
+	width: 10%;
+	background: #4db366;/*linear-gradient(#22abe9 5%, #36caf0 100%);*/
+	border: .1vw solid #1f4729;
+	font-size: 1vw;
+	margin-top: 1.5vw;
+	padding: .4vw;
+	margin-left: .5vw;
+	font-weight: bold;
+	border-radius: .2vw;
+	cursor: pointer;
+	color: #fcfcfc;
+}
+#signup, #logn {
+	width: 47%;
+	background: #4db366;/*linear-gradient(#22abe9 5%, #36caf0 100%);*/
+	border: .1vw solid #1f4729;
+	font-size: 1vw;
+	margin-top: .5vw;
+	padding: .4vw;
+	font-weight: bold;
+	border-radius: .2vw;
+	cursor: pointer;
+	color: #fcfcfc;
+}
+.about{	
+	margin-left: 12vw;
+	margin-top: 18%;
+	position: fixed;
+	line-height: 400%;
+	float: left;
+	width: 35%;
+	font-size: 1.4vw;
+}
+#warning{
+	margin-top: -1.2%;
+	margin-left: 1%;
+	visibility:visible;
+	color: red;
+}
+#warning2{
+	color: red;
+	visibility: visible;
+}
+.self{
+	margin-left: 8vw;
+	margin-top: 10.5%;
+	position: fixed;
+	font-weight: 500;
+	float: left;
+	width: 35%;
+	font-size: 2vw;
+}
+#poop{
+	margin-top: 19.5%;
+	margin-left: 8vw;
+	margin-bottom: 1vw;
+	position: fixed;
+	z-index: 6;
+}
+#poop2{
+	margin-top: 25%;
+	margin-left: 8vw;
+	margin-bottom: 1vw;
+	position: fixed;
+	z-index: 6;
+}
+
+#poop3{
+	margin-top: 30.5%;
+	margin-left: 8vw;
+	margin-bottom: 1vw;
+	position: fixed;
+	z-index: 6;
+}
+input[type=text2] {
+	width: 42%;
+	height: 1.8vw;
+	padding-left: 1vw;
+	margin-bottom: 1vw;
+	margin-top: .8vw;
+	margin-right: .5vw;
+	box-shadow: none;
+	border: .1vw solid #2f6a3e;
+	border-radius: .3vw;
+	color: #4f4f4f;
+	font-size: 1vw;	
+ 	letter-spacing: .1vw;
+}
+input[type=password2] {
+  -webkit-text-security: disc;
+	width: 90%;
+	height: 1.8vw;
+	padding-left: 1vw;
+	margin-bottom: 1vw;
+	margin-top: .8vw;
+	margin-right: .5vw;
+	box-shadow: none;
+	border: .1vw solid #2f6a3e;
+	border-radius: .3vw;
+	color: #4f4f4f;
+	font-size: 1vw;	
+ 	letter-spacing: .1vw;
+}
+input[type=text3] {
+	width: 90%;
+	height: 1.8vw;
+	padding-left: 1vw;
+	margin-bottom: 1vw;
+	margin-top: .8vw;
+	margin-right: .5vw;
+	box-shadow: none;
+	border: .1vw solid #2f6a3e;
+	border-radius: .3vw;
+	color: #4f4f4f;
+	font-size: 1vw;
+}
+.sgn{		
+	width: 30vw;
+	margin-top: 6%;
+	margin-left: 50%;
+	float:left;
+	padding: 1vw 4vw 3.5vw;
+	border-radius: 1000vw;
+	font-size: 1vw;
+	z-index: 4;
+}
+.footer{
+	background: none;/*linear-gradient( 0deg, #367d47, #4db366 );*/
+	width: 100%;
+	height: 9%;
+	margin-top: 55%;
+	font-size: 1vw;
+	font-weight: bold;
+	text-align: center;
+	text-indent: 8vw;
+	color: #000;
+	position:fixed;
+	z-index: 10;
+}
